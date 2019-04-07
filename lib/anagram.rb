@@ -7,7 +7,7 @@ class Anagram
     
     array_of_words.collect do |word|
       sorted_word_array = word.split("").sort
-      my_sorted_word_array = sorted_word_array
+      my_sorted_word_array == sorted_word_array
     end
     
   end

@@ -2,6 +2,10 @@
 class Anagram
   attr_accessor :word
   
+  def initialize(word)
+    @word = word
+  end
+  
   def match(array_of_words)
     my_sorted_word_array = @word.split("").sort
     
